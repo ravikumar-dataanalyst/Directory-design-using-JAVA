@@ -1,0 +1,82 @@
+   PSEDUCODE:
+   
+   main function()
+   step 1 ask user to enter how many students names ?
+   step 2 store this value in one integer variable
+   step 3 create a array of string of enough size to store the students names.
+   step 4 use looping structure to ask name of students.
+   step 5 call a function sortlexographically(array of student names) to sort the student name in lexicograpically 
+   step 6 call a function printarray(array of student name) to write a sorted name in the particular file i.e. Students.txt
+   step 7 take a input from user to remove the particular student name from the file students.txt
+   step 8 call a function removeLinemethod(name to be removed) to remove a particular name from student.txt file.
+   step 9 call a function readandprintinreverseorder() to read the file from bottom and print on the console.
+   step 10 main function end
+   
+   
+   
+   sortlexographically(array of student names)
+   
+   step 1 start 
+   step 2 take a two variable i and j.
+   step 3 i is initiliaze with 0 and j is initiliaze with i+1
+   step 4 use nested for loop for sorting 
+   step 5 take a first name and compare with second name 
+   step 6 if firstname and second name comparision result greater than 0 then 
+   step 7 exchange both the name in array using third variable
+   step 8 otherwise loop is continue
+   step 9 sort all the name like this way
+   step 10 end
+     
+   function printArray(array of students names)
+   step 1 start
+   step 2 create a new file on disk i.e. students.txt
+   step 3 using for loop write the all name in the file.
+   step 4 flush the printwriter
+   step 5 close the file.
+   step 6 end
+   
+   function removelinemethod(name to be removed) 
+   step 1 open a file you have created earlier for reading
+   step 2 create one another file for writing i.e. temp.txt
+   step 3 use for loop to read a one by one name from file students.txt
+   step 4 compare it with name which you have to remove 
+   step 5 if the name=name to be removed then continue
+   step 6 otherwise write the name in new file 
+   step 7 this will continue until all names are not read from file
+   step 8 now close both the file
+   step 9 delete original file names student.txt 
+   step 10 rename temp.txt to students.txt
+   step 11 end removelinemethod function
+   
+   
+   function readAndPrintInReverseOrder()
+   step 1 start
+   step 2 open a file students.txt for reading
+   step 3 create stack datastructure
+   step 4 read a one by one name from file and push into the stack
+   step 5 repeat step 4 until all names are not read
+   step 6 once all name are read use stack pop method to remove and print name on console until stack is not empty
+   step 7 end
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+   
+    
+ 
